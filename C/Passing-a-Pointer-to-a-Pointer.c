@@ -9,7 +9,7 @@ void correctAllocateArray(int **arr, int size , int initialValue) {
 	if(*arr != NULL) {
 		for( int i = 0 ; i < size ; i++ ) {
 			*(*arr+i) = initialValue;
-		}	
+		}
 	}
 }
 
@@ -18,7 +18,7 @@ void incorrectAllocateArray(int *arr, int size , int initialValue) {
 	if(arr != NULL) {
 		for( int i = 0 ; i < size ; i++ ) {
 			arr[i] = initialValue;
-		}	
+		}
 	}
 }
 
@@ -36,5 +36,7 @@ int main() {
 }
 
 /*
-
+In case of incorrectAllocateArray , 
+we have a memory leak because we have lost access to the  allocated 
+block of memory
 */
