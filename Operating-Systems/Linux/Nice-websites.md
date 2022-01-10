@@ -1,1 +1,0 @@
-[linuxgizmos](https://linuxgizmos.com/about/)
