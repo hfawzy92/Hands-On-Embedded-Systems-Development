@@ -1,3 +1,5 @@
+# Classes and Objects
+
 1. What is the difference between procedural and object orinted programming style ?
 2. What is the difference between Class and Object ?
    1. Class is a model. T/F ?
@@ -29,23 +31,23 @@
     2.  If you forget to implement a destructor, the compiler creates and invokes a dummy destructor. T/F ?
         1.  Does it clean up the allocated memory ?
 
-To solidify your knowledge , get your hands-on the following examples:
+# Practice Makes Perfect! Get your hands-on the following examples.
 
 1. Human-class-with-public-attributes.cpp
-    1. Define class Human:
-       1. Attributes:
-          1. public:
+    1. Define class Human
+       1. Attributes
+          1. public
              1. name: string
              2. age: int
-       2. Methods:
-          1. public:
+       2. Methods
+          1. public
              1. IntroduceSelf()
                 1. Return: void
                 2. Args: None
-                3. Logic:
+                3. Logic
                    1. print I'm {name} and am {age} years old !
                    2. print new line.
-    2. Test class Human:
+    2. main
        1. Instantiate firstMan and firstWoman object of type Class Human
        2. Set firstMan and firstWoman attributes (you choose the values).
        3. Invoke IntroduceSelf() of firstMan and firstWoman.
@@ -78,7 +80,7 @@ To solidify your knowledge , get your hands-on the following examples:
                3. Logic:
                   1. print I'm {name} and am {age} years old !
                   2. print new line.
-   2. Test class Human:
+   2. main
       1. Instantiate firstMan and firstWoman object of type Class Human
       2. Set firstMan and firstWoman attributes (you choose the values).
          1.  Are you able to use the dot operator ?
@@ -124,7 +126,7 @@ To solidify your knowledge , get your hands-on the following examples:
                2. else
                   1. Set buffer to NULL
          2. Destructor
-            1. print ""Invoking destructor, clearing up" followed by new line
+            1. print "Invoking destructor, clearing up" followed by new line
             2. if buffer has valid string
                1. deallocate the memory of buffer
          3. GetLength
@@ -132,5 +134,6 @@ To solidify your knowledge , get your hands-on the following examples:
          5. main
             1. Create sayHello object of type MyString
                1. parameter: "Hello from String Class"
-               2. print the length of the string in the object sayHello
-               3. print the contents of the string in the object sayHello
+            2. print the length of the string in the object sayHello
+            3. print the contents of the string in the object sayHello
+9. 
