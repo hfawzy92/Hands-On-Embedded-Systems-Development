@@ -14,7 +14,7 @@ int main() {
     set<int> setOfInts;
     int q;
     cin >> q;
-    while(--q) {
+   for (int i=q ; i > 0 ; i--) {
         int y , x;
         cin >> y >> x;
         switch (y)
@@ -26,8 +26,7 @@ int main() {
             setOfInts.erase(x);
             break;
         case 3:
-            auto foundElement = setOfInts.find(x);
-            if (foundElement != setOfInts.end())
+            if (setOfInts.find(x) != setOfInts.end())
                 cout << "Yes" << endl;
             else
                 cout << "No" << endl;

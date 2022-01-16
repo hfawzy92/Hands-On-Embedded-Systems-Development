@@ -5,6 +5,10 @@
         "fstream": "c",
         "istream": "c",
         "ostream": "c",
-        "sstream": "c"
+        "sstream": "c",
+        "string": "cpp",
+        "string_view": "cpp",
+        "iostream": "cpp",
+        "single-linked-list.h": "c"
     }
 }
